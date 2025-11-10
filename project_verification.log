@@ -1,0 +1,83 @@
+2025-11-07 07:03:35,555 - INFO - Starting project verification...
+
+2025-11-07 07:03:35,562 - INFO - 
+==================================================
+2025-11-07 07:03:35,564 - INFO - Running Directory Structure check...
+2025-11-07 07:03:35,565 - INFO - ==================================================
+
+2025-11-07 07:03:35,566 - INFO - Checking directory structure...
+2025-11-07 07:03:35,645 - INFO - 
+==================================================
+2025-11-07 07:03:35,646 - INFO - Running Audio Files check...
+2025-11-07 07:03:35,646 - INFO - ==================================================
+
+2025-11-07 07:03:35,647 - INFO - 
+Validating audio files...
+2025-11-07 07:03:35,649 - WARNING - ! No audio files found in G:\My Drive\LA_dataset\LA\ASVspoof2019_LA_train\flac
+2025-11-07 07:03:36,019 - INFO - 
+Checking 5 sample files from G:\My Drive\LA_dataset\LA\ASVspoof2019_LA_dev\flac
+2025-11-07 07:03:37,116 - INFO - 
+Checking 5 sample files from G:\My Drive\LA_dataset\LA\ASVspoof2019_LA_eval\flac
+2025-11-07 07:03:43,213 - INFO - 
+==================================================
+2025-11-07 07:03:43,214 - INFO - Running Protocol Files check...
+2025-11-07 07:03:43,215 - INFO - ==================================================
+
+2025-11-07 07:03:43,215 - INFO - 
+Verifying protocol files...
+2025-11-07 07:03:43,251 - INFO -      LA_0079 LA_T_1138215 - - bonafide
+2025-11-07 07:03:43,251 - INFO -      LA_0079 LA_T_1271820 - - bonafide
+2025-11-07 07:03:43,251 - INFO -      LA_0079 LA_T_1272637 - - bonafide
+2025-11-07 07:03:43,252 - INFO -      LA_0079 LA_T_1276960 - - bonafide
+2025-11-07 07:03:43,252 - INFO -      LA_0079 LA_T_1341447 - - bonafide
+2025-11-07 07:03:43,287 - INFO -      LA_0069 LA_D_1047731 - - bonafide
+2025-11-07 07:03:43,287 - INFO -      LA_0069 LA_D_1105538 - - bonafide
+2025-11-07 07:03:43,288 - INFO -      LA_0069 LA_D_1125976 - - bonafide
+2025-11-07 07:03:43,288 - INFO -      LA_0069 LA_D_1293230 - - bonafide
+2025-11-07 07:03:43,289 - INFO -      LA_0069 LA_D_1340209 - - bonafide
+2025-11-07 07:03:43,323 - INFO -      LA_0039 LA_E_2834763 - A11 spoof
+2025-11-07 07:03:43,323 - INFO -      LA_0014 LA_E_8877452 - A14 spoof
+2025-11-07 07:03:43,324 - INFO -      LA_0040 LA_E_6828287 - A16 spoof
+2025-11-07 07:03:43,324 - INFO -      LA_0022 LA_E_6977360 - A09 spoof
+2025-11-07 07:03:43,325 - INFO -      LA_0031 LA_E_5932896 - A13 spoof
+2025-11-07 07:03:43,325 - INFO - 
+==================================================
+2025-11-07 07:03:43,325 - INFO - Running Dependencies check...
+2025-11-07 07:03:43,326 - INFO - ==================================================
+
+2025-11-07 07:03:43,326 - INFO - 
+Checking Python dependencies...
+2025-11-07 07:03:47,715 - INFO - 
+
+==================================================
+2025-11-07 07:03:47,715 - INFO - VERIFICATION SUMMARY
+2025-11-07 07:03:47,716 - INFO - ==================================================
+2025-11-07 07:03:47,733 - INFO - 
+Check project_verification.log for detailed results
+2025-11-07 07:04:26,487 - INFO - Starting project verification...
+2025-11-07 07:04:26,492 - INFO - 
+Running Dataset check...
+2025-11-07 07:04:26,493 - INFO - Checking dataset directories...
+2025-11-07 07:04:26,497 - INFO - [OK] Found ASVspoof2019_LA_train/flac with 0 files
+2025-11-07 07:04:26,935 - INFO - [OK] Found ASVspoof2019_LA_dev/flac with 24986 files
+2025-11-07 07:04:27,613 - INFO - [OK] Found ASVspoof2019_LA_eval/flac with 50461 files
+2025-11-07 07:04:27,616 - INFO - [OK] Found ASVspoof2019_LA_cm_protocols with 3 files
+2025-11-07 07:04:27,700 - INFO - [OK] Protocol file format: LA_0079 LA_T_1138215 - - bonafide
+2025-11-07 07:04:27,704 - ERROR - [ERROR] No audio files found
+2025-11-07 07:04:27,704 - ERROR - [ERROR] Dataset check failed
+2025-11-07 07:04:27,705 - INFO - 
+Running Python Packages check...
+2025-11-07 07:04:27,705 - INFO - 
+Checking Python packages...
+2025-11-07 07:04:30,235 - INFO - [OK] torch is installed
+2025-11-07 07:04:30,397 - INFO - [OK] torchaudio is installed
+2025-11-07 07:04:32,976 - INFO - [OK] transformers is installed
+2025-11-07 07:04:32,985 - INFO - [OK] librosa is installed
+2025-11-07 07:04:33,512 - INFO - [OK] fastapi is installed
+2025-11-07 07:04:33,572 - INFO - [OK] uvicorn is installed
+2025-11-07 07:04:33,573 - INFO - [OK] numpy is installed
+2025-11-07 07:04:34,088 - INFO - [OK] pandas is installed
+2025-11-07 07:04:34,088 - INFO - [OK] soundfile is installed
+2025-11-07 07:04:34,089 - INFO - [OK] Python Packages check passed
+2025-11-07 07:04:34,090 - ERROR - 
+Some checks failed. Please review the errors above.

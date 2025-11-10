@@ -1,0 +1,18 @@
+2025-11-07 07:08:46,902 - INFO - Checking training data directories...
+2025-11-07 07:08:46,957 - INFO - [OK] Real Training Data: Found 2580 audio files
+2025-11-07 07:08:46,958 - INFO - Sample files:
+2025-11-07 07:08:46,958 - INFO -   - LA_T_1271820.flac
+2025-11-07 07:08:46,959 - INFO -   - LA_T_1272637.flac
+2025-11-07 07:08:46,959 - INFO -   - LA_T_1138215.flac
+2025-11-07 07:08:46,982 - INFO - [OK] Fake Training Data: Found 1116 audio files
+2025-11-07 07:08:46,983 - INFO - Sample files:
+2025-11-07 07:08:46,984 - INFO -   - LA_T_3057409.flac
+2025-11-07 07:08:46,984 - INFO -   - LA_T_3213614.flac
+2025-11-07 07:08:46,985 - INFO -   - LA_T_3172322.flac
+2025-11-07 07:08:46,985 - INFO - 
+Training Data Summary:
+2025-11-07 07:08:46,986 - INFO - Real audio files: 2580
+2025-11-07 07:08:46,986 - INFO - Fake audio files: 1116
+2025-11-07 07:08:46,987 - INFO - Total training files: 3696
+2025-11-07 07:08:46,987 - INFO - 
+[SUCCESS] Training data structure verification passed!
